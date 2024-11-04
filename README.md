@@ -4,6 +4,13 @@ Repository ini berisi tentang dua buah kode program yang berfungsi untuk men-gen
 
 ## Table of Contents
 
+- [Programs](#programs)
+  - [Random Number Generator (latihan1.py)](#random-number-generator-latihan1py)
+  - [Investment Profit Calculator (latihan2.py)](#investment-profit-calculator-latihan2py)
+  - [ATM Sederhana (latihan3.py)](#atm-sederhana-latihan3py))
+- [Cara menjalankan](#how-to-run)
+- [Program Details](#program-details)
+
 # Programs
 
 # Random Number Generator (latihan 1.py)
@@ -108,3 +115,82 @@ Program ini akan mensimulasikan mesin ATM sederhana dengan fitur penarikan uang 
 
 3. Program selesai
 ```
+
+#How to Run
+
+1. Pastikan Python 3.x sudah terinstal di sistem Anda
+2. Clone repositori ini:
+
+```git clone [repository-url]
+```
+
+3. Pindah ke direktori program:
+```cd [repository-name]
+```
+
+4. Run the program:
+```
+python3 latihan1.py
+python3 latihan2.py
+python3 latihan3.py
+```
+
+# Program Details
+
+### latihan1.py
+
+```
+•Menggunakan modul random Python
+•Menerapkan validasi input
+•Menghasilkan angka dalam rentang [0, 0,5)
+•Memformat output sesuai spesifikasi
+```
+
+### latihan2.py
+
+```
+• Modal awal tetap: Rp 100.000.000
+• Menghitung laba selama 8 bulan
+• Tingkat laba bervariasi:
+   -Bulan 1-2: 0%
+   -Bulan 3-4: 1%
+   -Bulan 5-7: 5%
+   -Bulan 8: 2%
+• Memberikan rincian laba bulanan
+• Menghitung total laba yang terakumulasi
+```
+
+### latihan3.py
+
+### Komponen Utama(ATM Sederhana)
+
+1. **Variabel Saldo**
+
+```
+    • Menyimpan jumlah saldo yang tersedia
+    • Diinisialisasi dengan nilai Rp 1.000.000
+```
+
+2. **Loop Utama**
+
+```
+    • Menggunakan while True untuk menjalankan program terus-menerus
+    • Berhenti hanya jika user memilih keluar
+```
+3. **Validasi Input**
+
+```
+    • Memastikan pilihan menu valid (1 atau 2)
+    • Memastikan jumlah penarikan tidak melebihi saldo
+```
+
+### Batasan Program (ATM Sederhana)
+
+```
+    • Saldo awal tetap: Rp 1.000.000
+    • Hanya menyediakan fitur penarikan
+    • Tidak ada fitur penyimpanan data permanen
+```
+
+## © Rhendy Zhaky Alvian
+rhendyzhakyalvian@gmail.com
